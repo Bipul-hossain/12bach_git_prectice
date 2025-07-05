@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.manu > li{
+    display: inline-block;
+    
+    padding: 10px 10px;
+    
+}
+.manu {
+    width: 90%;
+
+}
+
+.manu >li>a{
+    color: white;
+}
+
+.container{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+   
+}
+
+.manu-profile{
+    margin:  5px 0px;
+ border-radius: 100%;
+ overflow: hidden;
+ max-height: 50px;
+ max-width: 50px;
+}
+
+.manu-profile >img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
